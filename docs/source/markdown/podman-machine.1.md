@@ -16,6 +16,10 @@ but can be optionally used on Linux.
 
 All `podman machine` commands are rootless only.
 
+NOTE: The configurations for the virtual machines are managed under the
+`$XDG_CONFIG_HOME/containers/podman/machine/` directory. If you change the `$XDG_CONFIG_HOME`
+environment variable while the virtual machine runs, unexpected behavior could occur.
+
 ## SUBCOMMANDS
 
 | Command | Man Page                                             | Description                       |

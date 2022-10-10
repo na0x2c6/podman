@@ -19,6 +19,11 @@ but can be optionally used on Linux.
 
 Rootless only.
 
+NOTE: The podman-machine configuration file is managed under the
+`$XDG_CONFIG_HOME/containers/podman/machine/` directory. Therefore, if you change the
+`$XDG_CONFIG_HOME` environment variable, the output of the `podman machine list` will also be changed.
+(see [podman(1)](podman.1.md))
+
 ## OPTIONS
 
 #### **--format**=*format*
